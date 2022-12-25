@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* CSS Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Utility Classes... */
+h2 {
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* Nav-bar Starts.. */
+.navigation {
+  position: sticky;
+  top: 0px;
+  justify-content: space-between;
+  padding: 5px;
+  border-bottom: 2px solid black;
+}
+.navigation h1 {
+  font-size: 2.6rem;
+}
+.logo img {
+  width: 130px;
+}
+
+.bar {
+  font-size: 30px;
+  padding: 10px;
+}
+
+/* Hero Section Starts.. */
+.hero {
+  margin-top: 50px;
+  justify-content: center;
+  gap: 40px;
+  padding: 10px;
+}
+.hero-image img {
+  width: 300px;
+  border-radius: 200px;
+  flex-wrap: wrap;
+}
+.hero-content {
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  padding: 40px;
+}
+.hero-content p {
+  margin: 10px;
+  padding: 10px;
+}
+
+.primary-btn {
+  font-size: 1.8rem;
+  margin: 8px;
+  padding: 7px;
+  border-radius: 15px;
+  font-weight: 600;
+}
+.primary-btn:hover {
+  cursor: pointer;
+  background-color: rgb(229, 214, 214);
+  transition: 0.2s ease-in-out;
+}
+
+/* Card Section Starts.. */
+.card-section {
+  margin: 40px;
+  gap: 20px;
+}
+.card-feature {
+  padding: 10px;
+}
+.card {
+  text-align: center;
+  padding: 5px;
+}
+.card:hover {
+  cursor: pointer;
+  border-radius: 15px;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0px 0px 2px black;
+}
+.card h3 {
+  padding: 8px;
+}
+.card p {
+  padding: 8px;
+}
+
+.divider {
+  border: 1px solid gray;
+}
+
+/* Menu Section Starts... */
+.menu {
+  background-color: azure;
+  margin-top: 92px;
+}
+.menu h2 {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.gallery {
+  padding: 20px;
+  flex-direction: column;
+  gap: 20px;
+}
+.gallery1 {
+  justify-content: space-between;
+  gap: 20px;
+}
+.item1 img {
+  height: 320px;
+  border-radius: 100px;
+}
+.item1:hover {
+  cursor: pointer;
+  border-radius: 100px;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0px 0px 15px green;
+  transform: scale(1.04);
+}
+
+.item2 img {
+  width: 493px;
+  border-radius: 100px;
+}
+.item2:hover {
+  cursor: pointer;
+  border-radius: 100px;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0px 0px 15px rgb(237, 138, 8);
+  transform: scale(1.04);
+}
+
+.gallery2 {
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 100px;
+}
+.item3 img {
+  height: 320px;
+  border-radius: 100px;
+}
+.item3:hover {
+  cursor: pointer;
+  border-radius: 100px;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0px 0px 15px rgb(241, 17, 133);
+  transform: scale(1.04);
+}
+
+.item4 img {
+  height: 320px;
+  border-radius: 120px;
+}
+.item4:hover {
+  cursor: pointer;
+  border-radius: 120px;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0px 0px 15px rgb(1, 51, 250);
+  transform: scale(1.04);
+}
+
+/* Footer Section Starts.. */
+
+.footer {
+  margin-top: 60px;
+  gap: 10px;
+  padding: 55px;
+  justify-content: space-around;
+  background-color: rgb(241, 222, 222);
+}
+.logo img {
+  border-radius: 16px;
+}
+.link {
+  text-align: center;
+}
+.link h4 {
+  font-size: 1.5rem;
+  padding: 10px;
+}
+.link li {
+  padding: 6px;
+}
+
+.links a:hover {
+  background-color: rgb(208, 197, 250);
+  transition: 0.2s ease-in-out;
+  border-radius: 1px;
+}
